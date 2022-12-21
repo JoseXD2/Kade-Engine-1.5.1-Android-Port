@@ -10,7 +10,7 @@ import flixel.graphics.FlxGraphic;
 import openfl.utils.AssetManifest;
 import openfl.utils.AssetLibrary;
 import flixel.system.FlxAssets;
-
+import openfl.events.KeyboardEvent;
 import lime.app.Application;
 import lime.media.AudioContext;
 import lime.media.AudioManager;
@@ -119,6 +119,8 @@ class PlayState extends MusicBeatState
 	public static var charswhohavewalked:Array<String> = [];
 	var cutsceneSprite:Character;
 	var shakingShit:Bool = false;
+	var bfDodging:Bool = false; //nimumecanica
+	var bfCanDodge:Bool = false;
 	
 	private var camFollow:FlxObject;
 
