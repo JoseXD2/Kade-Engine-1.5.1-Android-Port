@@ -497,7 +497,6 @@ class Character extends FlxSprite
 				addOffset("singLEFT-alt", -30, 15);
 				addOffset("singDOWN-alt", -30, -27);
 
-				playAnim('idle');
 			case 'bf-miku':
 				var tex = Paths.getSparrowAtlas('characters/BOYFRIEND_MIKU');
 				frames = tex;
