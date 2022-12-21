@@ -1,5 +1,8 @@
 package;
 
+import openfl.ui.Keyboard;
+import flixel.input.keyboard.FlxKey;
+import openfl.events.KeyboardEvent;
 import flixel.input.keyboard.FlxKey;
 import haxe.Exception;
 import openfl.geom.Matrix;
@@ -168,6 +171,7 @@ class PlayState extends MusicBeatState
 	var currentFrames:Int = 0;
 
 	public var dialogue:Array<String> = ['dad:blah blah blah', 'bf:coolswag'];
+        public var moveNOWWW:Bool = true;
 
 	var halloweenBG:FlxSprite;
 	var isHalloween:Bool = false;
