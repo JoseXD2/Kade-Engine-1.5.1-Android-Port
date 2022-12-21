@@ -900,7 +900,7 @@ class PlayState extends MusicBeatState
 		if (!loadRep)
 			rep = new Replay("na");
 
-		FlxG.stage.addEventListener(KeyboardEvent.KEY_DOWN,handleInput);
+		
 
 		super.create();
 	}
@@ -1635,6 +1635,7 @@ class PlayState extends MusicBeatState
 			while (balls >= 0)
 			{
 				var cock:Date = notesHitArray[balls];
+				var stopSTOPITSTOPITNOW:Int = 270;
 				if (cock != null && cock.getTime() + 1000 < Date.now().getTime())
 					notesHitArray.remove(cock);
 				else
