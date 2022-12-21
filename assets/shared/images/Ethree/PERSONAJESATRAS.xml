@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="PERSONAJESATRAS.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Personajesatras0000" x="0" y="0" width="2519" height="467" pivotX="-44.45" pivotY="15.9" frameX="0" frameY="-15" frameWidth="2519" frameHeight="484"/>
+	<SubTexture name="Personajesatras0001" x="0" y="0" width="2519" height="467" frameX="0" frameY="-15" frameWidth="2519" frameHeight="484"/>
+	<SubTexture name="Personajesatras0002" x="0" y="467" width="2513" height="475" frameX="-2" frameY="-8" frameWidth="2519" frameHeight="484"/>
+	<SubTexture name="Personajesatras0003" x="0" y="467" width="2513" height="475" frameX="-2" frameY="-8" frameWidth="2519" frameHeight="484"/>
+	<SubTexture name="Personajesatras0004" x="0" y="942" width="2508" height="480" frameX="-4" frameY="-3" frameWidth="2519" frameHeight="484"/>
+	<SubTexture name="Personajesatras0005" x="0" y="1422" width="2505" height="484" frameX="-5" frameY="0" frameWidth="2519" frameHeight="484"/>
+	<SubTexture name="Personajesatras0006" x="0" y="1422" width="2505" height="484" frameX="-5" frameY="0" frameWidth="2519" frameHeight="484"/>
+	<SubTexture name="Personajesatras0007" x="0" y="1906" width="2505" height="484" frameX="-5" frameY="0" frameWidth="2519" frameHeight="484"/>
+</TextureAtlas>
