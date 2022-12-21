@@ -126,6 +126,7 @@ class PlayState extends MusicBeatState
         var deathfire:FlxSprite;
 	var alert:FlxSprite;
 
+	private var characters_walking:FlxSprite;
 	private var camFollow:FlxObject;
 
 	private static var prevCamFollow:FlxObject;
@@ -903,7 +904,7 @@ class PlayState extends MusicBeatState
 	public function initBGChars() 
 	{
 			
-		var characters_walking:FlxSprite = new FlxSprite( 22, 700); // x 820
+		characters_walking = new FlxSprite( 22, 700); // x 820
 		characters_walking.frames = Paths.getSparrowAtlas("Ethree/beepiefondoassets");
 		characters_walking.setGraphicSize(Std.int(characters_walking.width * 1.7));
 		//characters_walking.flipX = true;
