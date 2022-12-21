@@ -121,7 +121,11 @@ class PlayState extends MusicBeatState
 	var shakingShit:Bool = false;
 	var bfDodging:Bool = false; //nimumecanica
 	var bfCanDodge:Bool = false;
-	
+	var characters1:FlxSprite;
+	var bar:FlxSprite;
+        var deathfire:FlxSprite;
+	var alert:FlxSprite;
+
 	private var camFollow:FlxObject;
 
 	private static var prevCamFollow:FlxObject;
