@@ -749,10 +749,8 @@ class PlayState extends MusicBeatState
 			'health', 0, 2);
 		healthBar.scrollFactor.set();
 		healthBar.createFilledBar(0xFFFF0000, 0xFF66FF33);
-		// healthBar
-		add(healthBar);
-
-          {
+		switch (dad.curCharacter)
+        {
             case 'gf':
               healthBar.createFilledBar(0xFFFF0000, 0xFF254DAC);
             case 'dad':
@@ -763,7 +761,9 @@ class PlayState extends MusicBeatState
               healthBar.createFilledBar(0xFF000000, 0xFF254DAC);
             case 'beepie-unu' | 'beepie-happy':
               healthBar.createFilledBar(0xFFB82B50, 0xFF254DAC);
-           }		
+        }
+		// healthBar
+		add(healthBar);
 				
 		// Add Kade Engine watermark
 		kadeEngineWatermark = new FlxText(4,healthBarBG.y + 50,0,SONG.song + " " + (storyDifficulty == 2 ? "Hard" : storyDifficulty == 1 ? "Normal" : "Easy") + (Main.watermarks ? " - KE " + MainMenuState.kadeEngineVer : ""), 16);
