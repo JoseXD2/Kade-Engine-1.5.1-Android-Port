@@ -1626,7 +1626,7 @@ class PlayState extends MusicBeatState
 			}
 		}
 
-
+                var stopSTOPITSTOPITNOW:Int = 270;
 		// reverse iterate to remove oldest notes first and not invalidate the iteration
 		// stop iteration as soon as a note is not removed
 		// all notes should be kept in the correct order and this is optimal, safe to do every frame/update
@@ -1635,7 +1635,6 @@ class PlayState extends MusicBeatState
 			while (balls >= 0)
 			{
 				var cock:Date = notesHitArray[balls];
-				var stopSTOPITSTOPITNOW:Int = 270;
 				if (cock != null && cock.getTime() + 1000 < Date.now().getTime())
 					notesHitArray.remove(cock);
 				else
